@@ -1,1 +1,1 @@
-
+eit.scripts = {}
