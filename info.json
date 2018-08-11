@@ -1,0 +1,10 @@
+{
+	"name": "Enhanced_industrial_techniques",
+	"version": "0.1.0",
+	"factorio-version": "0.16",
+	"title": "Enhanced Industrial Techniques",
+	"author": "",
+	"homepage": "",
+	"description": "A mod that tries to create more realistic and complex recipes using only the vanilla resources",
+	"dependencies": ["base"]	
+}
