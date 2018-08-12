@@ -1,10 +1,9 @@
 {
 	"name": "Enhanced_industrial_techniques",
 	"version": "0.1.0",
-	"factorio-version": "0.16",
+	"factorio_version": "0.16",
 	"title": "Enhanced Industrial Techniques",
-	"author": "",
-	"homepage": "",
+	"author": "rikyan and azael",
 	"description": "A mod that tries to create more realistic and complex recipes using only the vanilla resources",
 	"dependencies": ["base"]	
 }
