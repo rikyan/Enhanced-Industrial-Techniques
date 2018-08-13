@@ -4,3 +4,5 @@ require("scripts.data")
 
 require("data.items")
 require("data.fluids")
+require("data.technologies")
+require("data.recipes")
