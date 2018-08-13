@@ -118,7 +118,7 @@ data:extend({
     name = "water-hydrolysis",
     category = "chemistry",
     subgroup = "fluid-recipes",
-    icon = "__Enhanced-industrial-techniques__/graphics/items/o2.png",
+    icon = "__Enhanced-industrial-techniques__/graphics/recipes/water-hydrolysis-recipe.png",
     icon_size = 32,
     energy_required = 3,
     ingredients =
