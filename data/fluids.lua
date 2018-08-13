@@ -1,0 +1,103 @@
+data:extend(
+{
+  {
+    type = "fluid",
+    name = "tar",
+    icon = "__Enhanced-industrial-techniques__/graphics/items/tar.png",
+    icon_size = 32,
+    default_temperature = 25,
+    max_temperature = 200,
+    heat_capacity = "0.5KJ",
+    base_color = {r=0, g=0, b=0},
+    flow_color = {r=0.5, g=0.5, b=0.5},
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-m"
+  },
+  {
+    type = "fluid",
+    name = "ammonia",
+    icon = "__Enhanced-industrial-techniques__/graphics/items/nh3.png",
+    icon_size = 32,
+    default_temperature = 25,
+    max_temperature = 100,
+    heat_capacity = "0.05KJ",
+    base_color = {r=0, g=0.5, b=0.1},
+    flow_color = {r=0.45, g=0.8, b=0.45},
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-m"
+  },
+  {
+    type = "fluid",
+    name = "benzene",
+    icon = "__Enhanced-industrial-techniques__/graphics/items/benzene.png",
+    icon_size = 32,
+    default_temperature = 25,
+    max_temperature = 100,
+    heat_capacity = "0.05KJ",
+    base_color = {r=0, g=0.1, b=0.5},
+    flow_color = {r=0.5, g=0.8, b=1},
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-m"
+  },
+  {
+    type = "fluid",
+    name = "toluene",
+    icon = "__Enhanced-industrial-techniques__/graphics/items/toluene.png",
+    icon_size = 32,
+    default_temperature = 25,
+    max_temperature = 100,
+    heat_capacity = "0.05KJ",
+    base_color = {r=0, g=0.1, b=0.8},
+    flow_color = {r=0.8, g=1, b=1},
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-m"
+  },
+  {
+    type = "fluid",
+    name = "nitrogen-dioxide",
+    icon = "__Enhanced-industrial-techniques__/graphics/items/no2.png",
+    icon_size = 32,
+    default_temperature = 25,
+    max_temperature = 100,
+    heat_capacity = "0.1KJ",
+    base_color = {r=0.8, g=0.5, b=0},
+    flow_color = {r=1, g=0.8, b=0.4},
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-m"
+  },
+  {
+    type = "fluid",
+    name = "nitric-acid",
+    icon = "__Enhanced-industrial-techniques__/graphics/items/hno3.png",
+    icon_size = 32,
+    default_temperature = 25,
+    max_temperature = 100,
+    heat_capacity = "0.1KJ",
+    base_color = {r=0.8, g=0.7, b=0},
+    flow_color = {r=1, g=1, b=0.7},
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    order = "a[fluid]-m"
+  },
+  {
+    type = "fluid",
+    name = "city-gas",
+    icon = "__Enhanced-industrial-techniques__/graphics/items/city-gas.png",
+    icon_size = 32,
+    default_temperature = 15,
+    max_temperature = 1000,
+    heat_capacity = "0.1KJ",
+    base_color = {r=0.7, g=0.7, b=0.7},
+    flow_color = {r=0.9, g=0.9, b=0.9},
+    pressure_to_speed_ratio = 0.4,
+    flow_to_energy_ratio = 0.59,
+    gas_temperature = 15,
+    order = "a[fluid]-m"
+  }
+
+})
