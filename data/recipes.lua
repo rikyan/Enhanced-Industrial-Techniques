@@ -120,6 +120,7 @@ data:extend({
     subgroup = "fluid-recipes",
     icon = "__Enhanced-industrial-techniques__/graphics/recipes/water-hydrolysis-recipe.png",
     icon_size = 32,
+    crafting_machine_tint = { primary = {r=0, g=0.34, b=0.6}, secondary = {r=0.756, g=0.33, b=0.38}, tertiary = {r=0.81, g=0.9, b=0.9}},
     energy_required = 3,
     ingredients =
     {
