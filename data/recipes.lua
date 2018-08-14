@@ -42,12 +42,12 @@ data:extend({
     ingredients =
     {
       {type = "fluid", name = "ammonia", amount = 10},
-      --{type = "fluid", name = "oxygen", amount = 10}
+      {type = "fluid", name = "oxygen", amount = 10}
     },
     results =
     {
       {type = "fluid", name = "nitrogen-dioxide", amount = 10},
-      --{type = "fluid", name = "hydrogen", amount = 15}
+      {type = "fluid", name = "hydrogen", amount = 15}
     },
     energy_required = 5,
     enabled = true,
@@ -112,5 +112,26 @@ data:extend({
     },
     enabled = true,
     main_product = "tnt"
+  },
+  {
+    type = "recipe",
+    name = "water-hydrolysis",
+    category = "chemistry",
+    subgroup = "fluid-recipes",
+    icon = "__Enhanced-industrial-techniques__/graphics/recipes/water-hydrolysis-recipe.png",
+    icon_size = 32,
+    crafting_machine_tint = { primary = {r=0, g=0.34, b=0.6}, secondary = {r=0.756, g=0.33, b=0.38}, tertiary = {r=0.81, g=0.9, b=0.9}},
+    energy_required = 3,
+    ingredients =
+    {
+      {type = "fluid", name = "water", amount = 10}
+    },
+    results =
+    {
+      {type = "fluid", name = "oxygen", amount = 10},
+      {type = "fluid", name = "hydrogen", amount = 20}
+    },
+    enabled = false,
+
   }
 })
