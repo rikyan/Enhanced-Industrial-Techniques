@@ -97,12 +97,12 @@ data:extend({
     energy_required = 8,
     ingredients =
     {
-      {type = "fluid", name = "tar", amount = 20}
+      {type = "fluid", name = "tar", amount = 10}
     },
     results =
     {
-      {type = "fluid", name = "benzene", amount = 20},
-      {type = "fluid", name = "toluene", amount = 20}
+      {type = "fluid", name = "benzene", amount = 10},
+      {type = "fluid", name = "toluene", amount = 10}
     },
     enabled = false,
     crafting_machine_tint =
