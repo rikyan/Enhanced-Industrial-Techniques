@@ -74,7 +74,8 @@ data:extend({
     },
     results =
     {
-      {type = "fluid", name = "nitric-acid", amount = 10}
+      {type = "fluid", name = "nitric-acid", amount = 10},
+      {type = "fluid", name = "hydrogen", amount = 5}
     },
     emissions_multiplier = 0.5,
     enabled = false,
