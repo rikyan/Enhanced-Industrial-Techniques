@@ -42,12 +42,12 @@ data:extend({
     ingredients =
     {
       {type = "fluid", name = "ammonia", amount = 10},
-      --{type = "fluid", name = "oxygen", amount = 10}
+      {type = "fluid", name = "oxygen", amount = 10}
     },
     results =
     {
       {type = "fluid", name = "nitrogen-dioxide", amount = 10},
-      --{type = "fluid", name = "hydrogen", amount = 15}
+      {type = "fluid", name = "hydrogen", amount = 15}
     },
     energy_required = 5,
     enabled = false,
