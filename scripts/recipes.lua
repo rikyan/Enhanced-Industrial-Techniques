@@ -80,6 +80,19 @@ function eit.scripts.recipes.add_ingredient(recipe, ingredient)
    end
 end
 
+function eit.scripts.recipes.add_expensive_ingredient(recipe, ingredient)
+  if data.raw.recipe[recipe] then
+    if data.raw.recipe[recipe].expensive and data.raw.recipe[recipe].expensive.ingredients then
+      table.insert(data.raw.recipe[recipe].expensive.ingredients, ingredient)
+
+    else
+      log("Cannot add expensive ingredient, recipe"..recipe.."doesn't have an expensive version!")
+    end
+  else
+    log("Cannot remove ingredient, recipe" .. recipe .. "does not exist")
+  end
+end
+
 
 function eit.scripts.recipes.replace_ingredient(recipe, old, new)
   if eit.scripts.recipes.remove_ingredient(recipe, old) then

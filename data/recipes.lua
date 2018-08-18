@@ -29,7 +29,7 @@ data:extend({
       }
     },
     emissions_multiplier = 1.5,
-    enabled = true,
+    enabled = false,
     order = "a[oil.processing]-d"
   },
   {
@@ -50,8 +50,14 @@ data:extend({
       {type = "fluid", name = "hydrogen", amount = 15}
     },
     energy_required = 5,
-    enabled = true,
-    main_product = "nitrogen-dioxide"
+    enabled = false,
+    main_product = "nitrogen-dioxide",
+    crafting_machine_tint =
+    {
+      primary = {r = 0, g = 0.3, b = 0.05},
+      secondary = {r = 0.4, g = 0.25, b = 0},
+      tertiary = {r = 0.2, g = 0.3, b = 0.05}
+    }
   },
   {
     type = "recipe",
@@ -68,15 +74,22 @@ data:extend({
     },
     results =
     {
-      {type = "fluid", name = "nitric-acid", amount = 10}
+      {type = "fluid", name = "nitric-acid", amount = 10},
+      {type = "fluid", name = "hydrogen", amount = 5}
     },
     emissions_multiplier = 0.5,
-    enabled = true,
-    main_product = "nitric-acid"
+    enabled = false,
+    main_product = "nitric-acid",
+    crafting_machine_tint =
+    {
+      primary = {r = 0.8, g = 0.5, b = 0},
+      secondary = {r = 0.8, g = 0.7, b = 0},
+      tertiary = {r = 0.8, g = 0.6, b = 0}
+    }
   },
   {
     type = "recipe",
-    name = "tarring-distilation",
+    name = "tar-distillation",
     category = "chemistry",
     subgroup = "fluid-recipes",
     icon = "__Enhanced-industrial-techniques__/graphics/items/benzene.png",
@@ -84,14 +97,20 @@ data:extend({
     energy_required = 8,
     ingredients =
     {
-      {type = "fluid", name = "tar", amount = 20}
+      {type = "fluid", name = "tar", amount = 10}
     },
     results =
     {
       {type = "fluid", name = "benzene", amount = 10},
       {type = "fluid", name = "toluene", amount = 10}
     },
-    enabled = true
+    enabled = false,
+    crafting_machine_tint =
+    {
+      primary = {r = 0.2, g = 0.2, b = 0.2},
+      secondary = {r = 0.2, g = 0.2, b = 0.6},
+      tertiary = {r = 0.2, g = 0.2, b = 0.4}
+    }
   },
   {
     type = "recipe",
@@ -110,12 +129,18 @@ data:extend({
     {
       {type = "item", name = "tnt", amount = 2}
     },
-    enabled = true,
-    main_product = "tnt"
+    enabled = false,
+    main_product = "tnt",
+    crafting_machine_tint =
+    {
+      primary = {r = 0.8, g = 0.5, b = 0},
+      secondary = {r = 0.8, g = 0.7, b = 0},
+      tertiary = {r = 0.8, g = 0.6, b = 0}
+    }
   },
   {
     type = "recipe",
-    name = "water-hydrolysis",
+    name = "water-electrolysis",
     category = "chemistry",
     subgroup = "fluid-recipes",
     icon = "__Enhanced-industrial-techniques__/graphics/recipes/water-hydrolysis-recipe.png",
@@ -132,6 +157,5 @@ data:extend({
       {type = "fluid", name = "hydrogen", amount = 20}
     },
     enabled = false,
-
   }
 })
