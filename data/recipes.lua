@@ -101,8 +101,8 @@ data:extend({
     },
     results =
     {
-      {type = "fluid", name = "benzene", amount = 10},
-      {type = "fluid", name = "toluene", amount = 10}
+      {type = "fluid", name = "benzene", amount = 20},
+      {type = "fluid", name = "toluene", amount = 20}
     },
     enabled = false,
     crafting_machine_tint =
