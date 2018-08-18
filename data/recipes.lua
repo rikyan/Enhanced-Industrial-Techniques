@@ -12,8 +12,8 @@ data:extend({
       ingredients = {{"coal", 10}},
       results =
       {
+        {type = "fluid", name = "ammonia", amount = 20},
         {type = "fluid", name = "tar", amount = 40},
-        {type = "fluid", name = "ammonia", amount = 10},
         {type = "fluid", name = "city-gas", amount = 10}
       }
     },
