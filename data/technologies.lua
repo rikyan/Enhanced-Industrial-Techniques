@@ -49,7 +49,7 @@ data:extend({
     name = "tnt-chemical-process",
     icon_size = 128,
     icon = "__base__/graphics/technology/oil-processing.png",
-    prerequisites = {"coal-chemical-processing", "water-hydrolysis"},
+    prerequisites = {"coal-chemical-processing", "water-electrolysis"},
     unit =
     {
       count = 100,
